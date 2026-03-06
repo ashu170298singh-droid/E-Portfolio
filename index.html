@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -599,10 +599,9 @@
   }
 
   .fade-in {
-    opacity: 0; transform: translateY(24px);
-    transition: opacity 0.6s ease, transform 0.6s ease;
+    opacity: 1; transform: translateY(0);
+    animation: fadeUp 0.7s ease both;
   }
-  .fade-in.visible { opacity: 1; transform: translateY(0); }
 
   /* SCROLLBAR */
   ::-webkit-scrollbar { width: 6px; }
